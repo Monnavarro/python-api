@@ -6,7 +6,7 @@ authors = ["Monnavarro <montserrat.nvro.lpz@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.79.0"
+fastapi = {extras = ["all"], version = "^0.79.0"}
 
 [tool.poetry.dev-dependencies]
 
